@@ -1,7 +1,9 @@
 import streamlit
 
-streamlit.title('Restaurant de los viejos')
-streamlit.header('Comida saludable')
-streamlit.text('Pollo a la plancha')
-streamlit.text('Ensalada de tomate y huevo')
-streamlit.text('Lechugita')
+streamlit.header('Breakfast Menu')
+streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
+streamlit.text('🥗  Kale, Spinach & Rocket Smoothie')
+streamlit.text('🐔 Hard-Boiled Free-Range Egg')
+streamlit.text('🥑🍞 Avocado Toast')
+
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
