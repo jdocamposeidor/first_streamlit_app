@@ -48,7 +48,7 @@ def get_fruit_load_list():
     my_cur.execute("SELECT * from pc_rivery_db.public.fruit_load_list")
     return my_cur.fetchall()
 
-if stramlit.button('Get list'):
+if streamlit.button('Get list'):
   my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
   my_data_rows = get_fruit_load_list()
   streamlit.dataframe(my_data_rows)
